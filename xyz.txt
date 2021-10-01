@@ -1,0 +1,54 @@
+
+
+                                                                      // database connection code
+                                                            // $con = mysqli_connect('localhost', 'database_user', 'database_password','database');
+// $con = mysqli_connect('localhost', 'root', '','book');
+
+// $dest=$cdate=$odate=$adult=$child='';
+//                                                               // get the post records
+// $dest = $_POST['dest'];
+// $cdate = $_POST['cdate'];
+// $odate = $_POST['odate'];
+// $adult = $_POST['adult'];
+// $child = $_POST['child'];
+
+//                                                           // database insert SQL code
+// $sql = "INSERT INTO `bookTable` ( `destination`, `check_in`, `check_out`, `adult`, `child`) VALUES ( '$dest', '$cdate', '$odate', '$adult', '$child')";
+
+//                                                              // insert in database 
+// $rs = mysqli_query($con, $sql);
+// if($rs)
+// {
+// 	echo "travel Record Inserted";
+// }
+// 
+ 
+
+
+
+
+
+
+
+
+	// $dest = $_POST['dest'];
+	// $cdate = $_POST['cdate'];
+	// $odate = $_POST['odate'];
+	// $adult = $_POST['adult'];
+	// $child = $_POST['child'];
+    // // $dest=$cdate=$odate=$adult=$child='';
+
+	// // Database connection
+	// $conn = new mysqli('localhost','root','','book');
+	// if($conn->connect_error){
+	// 	echo "$conn->connect_error";
+	// 	die("Connection Failed : ". $conn->connect_error);
+	// } else {
+	// 	$stmt = $conn->prepare("insert into booktable(dest, cdate, odate, adult, child ) values($dest, $cdate, $odate, $adult, $child)");
+	// 	$stmt->bind_param("sssii", $dest, $cdate, $odate, $adult, $child);
+	// 	$execval = $stmt->execute();
+	// 	echo $execval;
+	// 	echo "Registration successfully...";
+	// 	$stmt->close();
+	// 	$conn->close();
+	// }
